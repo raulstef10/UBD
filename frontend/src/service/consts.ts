@@ -1,0 +1,15 @@
+export const REST_API_URL = "http://localhost:8080";
+export const API_PATH = "/energy";
+export const USERS_API = "/client";
+export const JOKES_API = "/joke";
+export const AUTH_API = "/auth";
+export const FIND_BY_OWNER_API = "/owner"
+export const FIND_BY_CATEGORY_API = "/category"
+export const FIND_BY_USERNAME_API = "/username"
+export const FIND_BY_ROLE_API = "/role"
+export const JOKES_PATH = API_PATH + JOKES_API;
+export const USERS_PATH = API_PATH + USERS_API;
+export const LOGIN_PATH = API_PATH + AUTH_API + "/sign_in";
+export const REGISTER_PATH = API_PATH + AUTH_API + "/register";
+export const ROLES = ["ADMINISTRATOR", "CLIENT"]
+export const CATEGORY = ["ANIMAL", "BLONDE", "COMPUTER", "DOCTOR", "MATH"]
